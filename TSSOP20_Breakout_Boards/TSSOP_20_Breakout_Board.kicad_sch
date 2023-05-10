@@ -360,7 +360,7 @@
     (uuid 04466a57-d90b-41a1-86f7-0a72597bfeae)
     (property "Reference" "TSSOP1" (id 0) (at 125.73 120.65 0))
     (property "Value" "20_Pin_TSSOP_Board" (id 1) (at 125.73 123.19 0))
-    (property "Footprint" "" (id 2) (at 127 107.95 0)
+    (property "Footprint" "TSSOP_Footprints:20_Pin_TSSOP_Board" (id 2) (at 127 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 127 107.95 0)
@@ -506,7 +506,7 @@
       (reference "R1") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/04466a57-d90b-41a1-86f7-0a72597bfeae"
-      (reference "TSSOP1") (unit 1) (value "20_Pin_TSSOP_Board") (footprint "")
+      (reference "TSSOP1") (unit 1) (value "20_Pin_TSSOP_Board") (footprint "TSSOP_Footprints:20_Pin_TSSOP_Board")
     )
   )
 )
